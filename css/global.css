@@ -1,0 +1,69 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#email, #password, #name, #repeatPassword {
+    width: 100%;
+}
+
+.login-body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-contain{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 350px !important; 
+}
+
+@media screen and (max-width: 575px) {
+    .row-login {
+      padding: 30px;
+    }
+} 
+
+.login-container-title{
+    text-align: center;
+}
+
+.login-form-container{
+    text-align: center;
+}
+
+.login-label{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login-input{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+/* REGISTER */
+ 
+.register-body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-contain{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 450px !important; 
+}
+
+@media screen and (max-width: 575px) {
+    .row-register {
+      padding: 30px;
+    }
+} 
